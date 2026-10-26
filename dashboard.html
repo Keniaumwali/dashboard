@@ -1,0 +1,392 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CampusFlow | School Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body class="dashboard-page">
+
+    <div class="dashboard-layout">
+
+        <aside class="sidebar">
+            <a href="index.html" class="brand">
+                <span class="brand-icon"></span>
+                Campus<span class="brand-light">Flow</span>
+            </a>
+
+            <p class="sidebar-label">SCHOOL MANAGEMENT</p>
+
+            <nav class="sidebar-nav">
+                <a href="#overview" class="nav-link selected">
+                    <span class="nav-icon"></span> Overview
+                </a>
+                <a href="#students" class="nav-link">
+                    <span class="nav-icon"></span> Students
+                </a>
+                <a href="#classes" class="nav-link">
+                    <span class="nav-icon"></span> Classes
+                </a>
+                <a href="#attendance" class="nav-link">
+                    <span class="nav-icon"></span> Attendance
+                </a>
+                <a href="#announcements" class="nav-link">
+                    <span class="nav-icon"></span> Announcements
+                </a>
+            </nav>
+
+            
+<p class="sidebar-label settings-label">WORKSPACE</p>
+
+<nav class="sidebar-nav">
+    <a href="index.html" class="nav-link">
+        <span class="nav-icon"></span> Home Page
+    </a>
+</nav>
+
+
+            <div class="sidebar-help">
+                <div class="help-icon"></div>
+                <h3>Learning together</h3>
+                <p>Building a brighter future, one student at a time.</p>
+                <a href="#announcements">View announcements </a>
+            </div>
+
+            <div class="sidebar-bottom">
+                <div class="profile-avatar">AD</div>
+                <div class="profile-info">
+                    <strong>School Admin</strong>
+                    <p>Administrator</p>
+                </div>
+                <span class="profile-menu"></span>
+            </div>
+        </aside>
+
+        <main class="dashboard-main" id="overview">
+
+            <header class="dashboard-header">
+                <div class="welcome">
+                    <p class="eyebrow">CAMPUS MANAGEMENT</p>
+                    <h1>Good morning! <span class="wave"></span></h1>
+                    <p class="welcome-text">
+                        Here's what's happening at your school today.
+                    </p>
+                </div>
+
+                <div class="header-actions">
+                    <div class="school-term">
+                        <span></span>
+                        <div>
+                            <strong>Term 3</strong>
+                            <small>Academic year 2026</small>
+                        </div>
+                    </div>
+                    <div class="header-avatar">AD</div>
+                </div>
+            </header>
+
+            <section class="welcome-banner">
+                <div>
+                    <span class="banner-tag">WELCOME TO CAMPUSFLOW</span>
+                    <h2>Every student matters.</h2>
+                    <p>
+                        Your school at a glance. Keep students, teachers,
+                        and classes organized in one place.
+                    </p>
+                    <a href="#students" class="banner-button">
+                        Explore students 
+                    </a>
+                </div>
+                <div class="banner-art" aria-hidden="true">
+                    <div class="art-circle circle-one"></div>
+                    <div class="art-circle circle-two"></div>
+                    <div class="book-emoji"></div>
+                    <div class="star star-one"></div>
+                    <div class="star star-two"></div>
+                </div>
+            </section>
+
+            <section class="stats-grid" aria-label="School statistics">
+                <article class="stat-card students-card">
+                    <div class="stat-card-top">
+                        <span class="stat-title">Total Students</span>
+                        <span class="stat-icon purple-icon"></span>
+                    </div>
+                    <h2>1,248</h2>
+                    <div class="stat-footer">
+                        <span class="stat-change">+36 students</span>
+                        <span class="stat-period">this term</span>
+                    </div>
+                </article>
+
+                <article class="stat-card teachers-card">
+                    <div class="stat-card-top">
+                        <span class="stat-title">Teachers</span>
+                        <span class="stat-icon green-icon"></span>
+                    </div>
+                    <h2>68</h2>
+                    <div class="stat-footer">
+                        <span class="stat-change">52 full-time</span>
+                        <span class="stat-period">16 part-time</span>
+                    </div>
+                </article>
+
+                <article class="stat-card classes-card">
+                    <div class="stat-card-top">
+                        <span class="stat-title">Active Classes</span>
+                        <span class="stat-icon orange-icon"></span>
+                    </div>
+                    <h2>32</h2>
+                    <div class="stat-footer">
+                        <span class="stat-change">4 departments</span>
+                        <span class="stat-period">across school</span>
+                    </div>
+                </article>
+
+                <article class="stat-card attendance-card">
+                    <div class="stat-card-top">
+                        <span class="stat-title">Attendance Today</span>
+                        <span class="stat-icon blue-icon"></span>
+                    </div>
+                    <h2>94.8%</h2>
+                    <div class="stat-footer">
+                        <span class="stat-change">1,183 present</span>
+                        <span class="stat-period">out of 1,248</span>
+                    </div>
+                </article>
+            </section>
+
+            <div class="content-grid">
+
+                <section class="dashboard-panel" id="classes">
+                    <div class="panel-heading">
+                        <div>
+                            <p class="eyebrow">YOUR SCHEDULE</p>
+                            <h2>Today's Classes</h2>
+                            <p class="panel-description">
+                                A quick look at today's school timetable.
+                            </p>
+                        </div>
+                        <span class="section-emoji"></span>
+                    </div>
+
+                    <div class="schedule-list">
+                        <article class="schedule-item schedule-purple">
+                            <div class="schedule-time">
+                                <strong>08:00</strong>
+                                <span>09:00 AM</span>
+                            </div>
+                            <div class="schedule-details">
+                                <h3>Mathematics</h3>
+                                <p>Senior 3 . Room A12</p>
+                            </div>
+                            <span class="class-label label-purple">S3</span>
+                        </article>
+
+                        <article class="schedule-item schedule-green">
+                            <div class="schedule-time">
+                                <strong>09:15</strong>
+                                <span>10:15 AM</span>
+                            </div>
+                            <div class="schedule-details">
+                                <h3>Computer Science</h3>
+                                <p>Senior 5 . Computer Lab</p>
+                            </div>
+                            <span class="class-label label-green">S5</span>
+                        </article>
+
+                        <article class="schedule-item schedule-orange">
+                            <div class="schedule-time">
+                                <strong>10:30</strong>
+                                <span>11:30 AM</span>
+                            </div>
+                            <div class="schedule-details">
+                                <h3>English Language</h3>
+                                <p>Senior 2 . Room B04</p>
+                            </div>
+                            <span class="class-label label-orange">S2</span>
+                        </article>
+
+                        <article class="schedule-item schedule-blue">
+                            <div class="schedule-time">
+                                <strong>11:45</strong>
+                                <span>12:45 PM</span>
+                            </div>
+                            <div class="schedule-details">
+                                <h3>Biology</h3>
+                                <p>Senior 4 . Science Lab</p>
+                            </div>
+                            <span class="class-label label-blue">S4</span>
+                        </article>
+                    </div>
+                </section>
+
+                <section class="dashboard-panel attendance-panel" id="attendance">
+                    <div class="panel-heading">
+                        <div>
+                            <p class="eyebrow">DAILY CHECK-IN</p>
+                            <h2>Attendance</h2>
+                            <p class="panel-description">
+                                Student attendance for today.
+                            </p>
+                        </div>
+                        <span class="section-emoji"></span>
+                    </div>
+
+                    <div class="attendance-highlight">
+                        <div class="attendance-ring">
+                            <div class="ring-inner">
+                                <strong>94.8%</strong>
+                                <span>Present</span>
+                            </div>
+                        </div>
+                        <p>Great attendance today!</p>
+                        <span>Most students are in class.</span>
+                    </div>
+
+                    <div class="attendance-legend">
+                        <div>
+                            <span class="legend-square present-square"></span>
+                            <span>Present</span>
+                            <strong>1,183</strong>
+                        </div>
+                        <div>
+                            <span class="legend-square absent-square"></span>
+                            <span>Absent</span>
+                            <strong>45</strong>
+                        </div>
+                        <div>
+                            <span class="legend-square late-square"></span>
+                            <span>Late</span>
+                            <strong>20</strong>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+
+            <section class="dashboard-panel students-panel" id="students">
+                <div class="panel-heading">
+                    <div>
+                        <p class="eyebrow">STUDENT DIRECTORY</p>
+                        <h2>Recently Enrolled Students</h2>
+                        <p class="panel-description">
+                            Meet some of the newest members of our school.
+                        </p>
+                    </div>
+                    <a href="#students" class="view-all">
+                        View students 
+                    </a>
+                </div>
+
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>STUDENT</th>
+                                <th>STUDENT ID</th>
+                                <th>CLASS</th>
+                                <th>ENROLLMENT</th>
+                                <th>STATUS</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div class="user-cell">
+                                        <span class="user-avatar avatar-pink">AM</span>
+                                        <strong>Anna Mukamana</strong>
+                                    </div>
+                                </td>
+                                <td>CF-2026-101</td>
+                                <td><span class="role-badge">Senior 3</span></td>
+                                <td>Oct 10, 2026</td>
+                                <td><span class="status active-status"><span></span>Active</span></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="user-cell">
+                                        <span class="user-avatar avatar-blue">DN</span>
+                                        <strong>David Niyonsenga</strong>
+                                    </div>
+                                </td>
+                                <td>CF-2026-102</td>
+                                <td><span class="role-badge">Senior 5</span></td>
+                                <td>Oct 09, 2026</td>
+                                <td><span class="status active-status"><span></span>Active</span></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="user-cell">
+                                        <span class="user-avatar avatar-yellow">UW</span>
+                                        <strong>Uwase Wendy</strong>
+                                    </div>
+                                </td>
+                                <td>CF-2026-103</td>
+                                <td><span class="role-badge">Senior 2</span></td>
+                                <td>Oct 08, 2026</td>
+                                <td><span class="status pending-status"><span></span>Pending</span></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="user-cell">
+                                        <span class="user-avatar avatar-green">PK</span>
+                                        <strong>Patrick Kalisa</strong>
+                                    </div>
+                                </td>
+                                <td>CF-2026-104</td>
+                                <td><span class="role-badge">Senior 4</span></td>
+                                <td>Oct 07, 2026</td>
+                                <td><span class="status active-status"><span></span>Active</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <section class="dashboard-panel announcements-panel" id="announcements">
+                <div class="panel-heading">
+                    <div>
+                        <p class="eyebrow">SCHOOL UPDATES</p>
+                        <h2>Announcements</h2>
+                    </div>
+                </div>
+
+                <div class="announcement-card">
+                    <span class="announcement-icon announcement-purple"></span>
+                    <div>
+                        <h3>Parent-Teacher Meeting</h3>
+                        <p>Parents are invited to the school meeting this Friday at 9:00 AM.</p>
+                    </div>
+                    <span class="announcement-date">Oct 16</span>
+                </div>
+
+                <div class="announcement-card">
+                    <span class="announcement-icon announcement-orange"></span>
+                    <div>
+                        <h3>End-of-Term Examinations</h3>
+                        <p>Students should check the examination timetable with their class teachers.</p>
+                    </div>
+                    <span class="announcement-date">Oct 20</span>
+                </div>
+            </section>
+
+            <section class="dashboard-panel teachers-panel" id="teachers">
+                <p class="eyebrow">OUR COMMUNITY</p>
+                <h2>Great schools grow together.</h2>
+                <p class="panel-description">
+                    Students, teachers, and families working toward a brighter future.
+                </p>
+            </section>
+
+            <footer class="dashboard-footer" id="settings">
+                <span>2026 CampusFlow . School Management</span>
+                <span>Made for better learning <span class="footer-heart"></span></span>
+            </footer>
+
+        </main>
+    </div>
+</body>
+</html>
